@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+header{
+    z-index: 10001;
+}
+
+.popular{
+    width: 300px;
+    height: 300px;
+}
+/* .slick-container {
+    display: flex;
+    gap: 16px;
+  }
+  .slick-item {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 16px;
+  } */
+
+#like{
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+/* .populars{
+    width: 200px;
+    height: 200px;
+} */
+
+/* SpecialDish.css */
+.slick-container {
+    display: flex;
+    gap: 16px; /* Adjust the gap value as needed */
+    /* overflow: hidden; */
+  }
+  
+  .slick-item {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  /* Adjust the styling as needed for your specific design */
+  

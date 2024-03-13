@@ -1,0 +1,586 @@
+[
+    {
+        "id": "1",
+        "name": "Abacha",
+        "image": "/MenuImage/Abacha.png",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "2",
+        "name": "Amala Dudu & Ogunfe",
+        "image": "/MenuImage/amala-dudu.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "3",
+        "name": "Amala and Abula",
+        "image": "/MenuImage/amala-dudu.png",
+        "category": "Popular",
+        "Price": "10.00"
+
+    },
+    {
+        "id": "4",
+        "name": "Boli and Stew",
+        "image": "/MenuImage/Boli-stew.jpeg",
+        "category": "Popular",
+        "Price": "9.00"
+
+    },
+    {
+        "id": "5",
+        "name": "Abacha",
+        "image": "/MenuImage/Abacha.png",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "6",
+        "name": "Yam",
+        "image": "/MenuImage/yam.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "7",
+        "name": "Asorted",
+        "image": "/MenuImage/asorted.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "8",
+        "name": "Poutine",
+        "image": "/MenuImage/autumn-vegetable-poutine.jpg",
+        "category": "Popular",
+        "Price": "6.50"
+
+    },
+    {
+        "id": "9",
+        "name": "Baked Salmon",
+        "image": "/MenuImage/baked-salmon.jpeg",
+        "category": "Popular",
+        "Price": "15.00"
+
+    },
+    {
+        "id": "10",
+        "name": "Mash",
+        "image": "/MenuImage/Banger-and-mash.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "11",
+        "name": "Salad",
+        "image": "/MenuImage/basic-green-salad.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "12",
+        "name": "Beef Bourgignon",
+        "image": "/MenuImage/Beef-bourgignon.jpg",
+        "category": "Recipe",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "13",
+        "name": "Beef Suya",
+        "image": "/MenuImage/beef-suya.jpg",
+        "category": "Recipe",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "14",
+        "name": "Boerewors",
+        "image": "/MenuImage/Boerewors.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "15",
+        "name": "Boli and Stew",
+        "image": "/MenuImage/Boli-stew.jpeg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "16",
+        "name": "Buka stew",
+        "image": "/MenuImage/Buka-stew.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "17",
+        "name": "burger-food",
+        "image": "/MenuImage/burger-food.png",
+        "category": "Recipe",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "18",
+        "name": "Burger fries",
+        "image": "/MenuImage/burger-fries.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "19",
+        "name": "Burger",
+        "image": "/MenuImage/Burger.png",
+        "category": "Popular",
+        "Price": "2.00"
+
+    },
+    {
+        "id": "20",
+        "name": "Calgary Ginger Beef",
+        "image": "/MenuImage/Calgary-Ginger-Beef.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "21",
+        "name": "Canadian Moked Meat",
+        "image": "/MenuImage/canadian-moked-meat.jpeg",
+        "category": "Recipe",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "22",
+        "name": "Chakalaka Rice",
+        "image": "/MenuImage/chakalaka-rice.jpg",
+        "category": "Main",
+        "Price": "10.00"
+
+    },
+    {
+        "id": "23",
+        "name": "Cheese Burger",
+        "image": "/MenuImage/Cheesebuger.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "24",
+        "name": "Chicken Noodles Soup",
+        "image": "/MenuImage/chicken-noodle-soup.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "25",
+        "name": "Chicken Tikka Massala",
+        "image": "/MenuImage/Chicken-Tikka-Massala.jpg",
+        "category": "Main",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "26",
+        "name": "Classic Banger and Mash",
+        "image": "/MenuImage/classic-bangers-and-mash.jpg",
+        "category": "Popular",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "27",
+        "name": "Cobb Salad",
+        "image": "/MenuImage/cobb_salad.jpg",
+        "category": "Recipe",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "28",
+        "name": "Creamy Fruit Salad",
+        "image": "/MenuImage/creamy_fruit_salad.jpg",
+        "category": "Recipe",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "29",
+        "name": "Eba",
+        "image": "/MenuImage/Eba.jpg",
+        "category": "Main",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "30",
+        "name": "Egusi Soup",
+        "image": "/MenuImage/egusi-soup.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "31",
+        "name": "Eisbein",
+        "image": "/MenuImage/Eisbein.jpg",
+        "category": "Main",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "32",
+        "name": "English Breakfast",
+        "image": "/MenuImage/English-breakfast.jpg",
+        "category": "Popular",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "33",
+        "name": "Fiddleheads",
+        "image": "/MenuImage/Fiddleheads.jpg",
+        "category": "Recipe",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "34",
+        "name": "Filipino fruit salad",
+        "image": "/MenuImage/filipino-fruit-salad.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "35",
+        "name": "Fisp and Chips",
+        "image": "/MenuImage/Fish-and-chips.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "36",
+        "name": "Food",
+        "image": "/MenuImage/food.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "37",
+        "name": "French Fries",
+        "image": "/MenuImage/French-Fries.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "38",
+        "name": "Fried Chicken",
+        "image": "/MenuImage/fried-chicken.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "39",
+        "name": "Fried Rice",
+        "image": "/MenuImage/fried-rice.jpg",
+        "category": "Main",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "40",
+        "name": "Fried Yam and Egg",
+        "image": "/MenuImage/fried-yam-egg.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "41",
+        "name": "Fruit Salad",
+        "image": "/MenuImage/fruit-salad.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "42",
+        "name": "Hash Browns",
+        "image": "/MenuImage/hash-browns.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "43",
+        "name": "Abacha",
+        "image": "/MenuImage/igbo-dishes.png",
+        "category": "Main",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "44",
+        "name": "Ogbono Soup",
+        "image": "/MenuImage/igbo-soup.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "45",
+        "name": "Iyan and Egusi",
+        "image": "/MenuImage/iyan&egusi.jpg",
+        "category": "Main",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "46",
+        "name": "Jollof Rice",
+        "image": "/MenuImage/Jollof-Rice.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "47",
+        "name": "Maple Syrup",
+        "image": "/MenuImage/Maple-syrup.jpg",
+        "category": "Popular",
+        "Price": "7.00"
+
+    },
+    {
+        "id": "48",
+        "name": "Mashed Potatoes",
+        "image": "/MenuImage/Mashed-otatoes.jpg",
+        "category": "Popular",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "49",
+        "name": "Mexican Corn Salad",
+        "image": "/MenuImage/mexican-corn-salad.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "50",
+        "name": "Moussaka",
+        "image": "/MenuImage/Moussaka.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "51",
+        "name": "Mushroom",
+        "image": "/MenuImage/mushroom.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "52",
+        "name": "Nigerian Stewed Beans",
+        "image": "/MenuImage/Nigerian-stewed-beans.jpg",
+        "category": "Main",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "53",
+        "name": "Ofada Rice",
+        "image": "/MenuImage/ofada-rice.jpg",
+        "category": "Main",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "54",
+        "name": "Paella Recipe",
+        "image": "/MenuImage/Paella-recipe.jpg",
+        "category": "Recipe",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "55",
+        "name": "Pan Fried",
+        "image": "/MenuImage/pan-fried.jpg",
+        "category": "Popular",
+        "Price": "2.00"
+
+    },
+    {
+        "id": "56",
+        "name": "Peameal Beacon",
+        "image": "/MenuImage/Peameal-beacon.jpg",
+        "category": "Popular",
+        "Price": "3.00"
+
+    },
+    {
+        "id": "57",
+        "name": "Pepperoni Grilled Cheese",
+        "image": "/MenuImage/pepperoni-grilled-cheese.jpg",
+        "category": "Popular",
+        "Price": "6.00"
+
+    },
+    {
+        "id": "58",
+        "name": "Pizza",
+        "image": "/MenuImage/Pizza.png",
+        "category": "Popular",
+        "Price": "3.00"
+
+    }, 
+    {
+        "id": "59",
+        "name": "Porridge",
+        "image": "/MenuImage/porridge.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "60",
+        "name": "Iyan and Efo riro",
+        "image": "/MenuImage/pounded-yam.png",
+        "category": "Main",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "61",
+        "name": "Ramen",
+        "image": "/MenuImage/ramen.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "62",
+        "name": "Roasted Beef",
+        "image": "/MenuImage/Roast-beef.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "63",
+        "name": "Roasted Broccoli",
+        "image": "/MenuImage/roasted-broccoli.jpg",
+        "category": "Popular",
+        "Price": "5.00"
+
+    },
+    {
+        "id": "64",
+        "name": "Salmon Cake",
+        "image": "/MenuImage/salmon-cake.jpeg",
+        "category": "Popular",
+        "Price": "2.00"
+
+    },
+    {
+       "id": "65",
+        "name": "Sea Food",
+        "image": "/MenuImage/sea-food.jpg",
+        "category": "Popular",
+        "Price": "7.00"
+
+    },
+    {
+         "id": "66",
+        "name": "Semo and Egusi",
+        "image": "/MenuImage/semo.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "67",
+        "name": "Southafrican Bunny Chow",
+        "image": "/MenuImage/southafrican-bunny-chow.jpg",
+        "category": "Popular",
+        "Price": "5.50"
+
+    },
+    {
+        "id": "68",
+        "name": "Spiced Salmon",
+        "image": "/MenuImage/spiced-salmon.jpeg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "69",
+        "name": "Steak and Beaked Potato",
+        "image": "/MenuImage/Steakandbaked-potato.jpg",
+        "category": "Popular",
+        "Price": "4.00"
+
+    },
+    {
+        "id": "70",
+        "name": "Tom Kha Gai",
+        "image": "/MenuImage/Tom-Kha-Gai.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    },
+    {
+        "id": "71",
+        "name": "Tourtiere",
+        "image": "/MenuImage/Tourtiere.jpeg",
+        "category": "Popular",
+        "Price": "7.00"
+
+    },
+    {
+        "id": "72",
+        "name": "Turkey",
+        "image": "/MenuImage/turkey.png",
+        "category": "Popular",
+        "Price": "12.00"
+
+    },
+    {
+        "id": "73",
+        "name": "Yam",
+        "image": "/MenuImage/yam.jpg",
+        "category": "Popular",
+        "Price": "8.00"
+
+    }
+]
