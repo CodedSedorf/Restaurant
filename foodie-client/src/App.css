@@ -41,6 +41,10 @@ header{
     flex: 0 0 auto;
     width: 100%;
   }
+  .chef{
+    width: 500px;
+    height: 400px;
+  }
   
   /* Adjust the styling as needed for your specific design */
   

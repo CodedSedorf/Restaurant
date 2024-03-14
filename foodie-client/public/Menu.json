@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Abacha",
         "image": "/MenuImage/Abacha.png",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "5.00"
 
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "name": "Poutine",
         "image": "/MenuImage/autumn-vegetable-poutine.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "6.50"
 
     },
@@ -67,7 +67,7 @@
         "id": "9",
         "name": "Baked Salmon",
         "image": "/MenuImage/baked-salmon.jpeg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "15.00"
 
     },
@@ -83,7 +83,7 @@
         "id": "11",
         "name": "Salad",
         "image": "/MenuImage/basic-green-salad.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "3.00"
 
     },
@@ -107,7 +107,7 @@
         "id": "14",
         "name": "Boerewors",
         "image": "/MenuImage/Boerewors.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "5.00"
 
     },

@@ -3,6 +3,7 @@ import MyNavbar from '../components/MyNavbar'
 import Banner from '../components/Banner'
 import Categories from '../components/Categories'
 import SpecialDish from '../components/SpecialDish'
+import Testimonial from '../components/Testimonial'
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         <Banner/>
         <Categories/>
         <SpecialDish/>
+        <Testimonial/>
         <footer>Footer</footer>
     </div>
   )
