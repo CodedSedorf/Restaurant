@@ -5,6 +5,7 @@ import Categories from '../components/Categories'
 import SpecialDish from '../components/SpecialDish'
 import Testimonial from '../components/Testimonial'
 import Ourservices from '../components/Ourservices'
+import Footerzz from '../components/Footerzz'
 
 const Main = () => {
   return (
@@ -15,7 +16,7 @@ const Main = () => {
         <SpecialDish/>
         <Testimonial/>
         <Ourservices/>
-        <footer>Footer</footer>
+        <Footerzz/>
     </div>
   )
 }
