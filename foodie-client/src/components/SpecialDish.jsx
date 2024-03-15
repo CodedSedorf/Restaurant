@@ -95,7 +95,7 @@ const SpecialDish = () => {
         </div>
       
         <div className='md:absolute right-3 top-4 mb-10 md:mr-24'>
-          <button onClick={()=>slider?.current?.slickPrev()} className='btn p-2 rounded-full ml-5 bg-green'><FcPrevious /></button>
+          <button onClick={()=>slider?.current?.slickPrev()} className='btn p-2 rounded-full ml-5'><FcPrevious /></button>
           <button onClick={()=>slider?.current?.slickNext()} className='btn p-2 rounded-full ml-5 bg-green'><FcNext /></button>
         </div>
 

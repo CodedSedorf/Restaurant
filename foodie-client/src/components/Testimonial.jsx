@@ -1,5 +1,5 @@
 import React from 'react'
-import chefImage from "../assets/images/chef.jpg";
+import chefImage from "../assets/images/useChef.png";
 import { FaStar } from 'react-icons/fa';
 
 
@@ -8,7 +8,7 @@ const Testimonial = () => {
     <div className='max-w-screen-2x1 container mx-auto xl:px-24 px-6 bg-gradient-to-r from-[#fafafa] from-0% to-[#fcfcfc] to-100%'>
         <div className='flex flex-col md:flex-row items-center justify-between gap-12'>
             <div className='md:w-1/2'>
-                <img className='chef' src={chefImage} alt="" />
+                <img className='chef ' src={chefImage} alt="" />
             </div>
             <div className='md:w-1/2'>
                 <div className='text-left md:w-4/5'>

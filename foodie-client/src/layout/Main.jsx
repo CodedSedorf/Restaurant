@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Categories from '../components/Categories'
 import SpecialDish from '../components/SpecialDish'
 import Testimonial from '../components/Testimonial'
+import Ourservices from '../components/Ourservices'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <Categories/>
         <SpecialDish/>
         <Testimonial/>
+        <Ourservices/>
         <footer>Footer</footer>
     </div>
   )
