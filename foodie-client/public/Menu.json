@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "name": "Abacha",
+        "name": "A Abacha",
         "image": "/MenuImage/Abacha.png",
         "category": "Recipe",
         "Price": "5.00"
@@ -577,7 +577,7 @@
     },
     {
         "id": "73",
-        "name": "Yam",
+        "name": "Z Yam",
         "image": "/MenuImage/yam.jpg",
         "category": "Popular",
         "Price": "8.00"

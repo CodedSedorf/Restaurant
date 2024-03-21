@@ -8,6 +8,11 @@ const Shop = () => {
   const [selectedCategory, setselectedCategory] = useState("all");
   const [sortOption, setsortOption] = useState("default");
 
+  //number of items to display per page
+  const [currentPage, setcurrentPage] = useState(1);
+  const [itemsPerPage, setitemsPerPage] = useState(9);
+
+
   //loading data
   useEffect(() => {
     //fetch data from the backend
@@ -33,14 +38,17 @@ const Shop = () => {
 
 
       setfilteredItem(filtered);
-      setselectedCategory(category)
+      setselectedCategory(category);
+      setcurrentPage(1)
 
   }
 
 // show all data function
 const showAll = ()=>{
     setfilteredItem(menu);
-    setselectedCategory("all")
+    setselectedCategory("all");
+    setcurrentPage(1)
+
 }
 
 //sorting based on A-Z, Z-A, Low-High pricing
@@ -68,7 +76,14 @@ const handleSortChange = (option) =>{
 
 
     setfilteredItem(sortedItem);
+    setcurrentPage(1)
 }
+
+//pagination logic
+const indexOfLastItem = currentPage * itemsPerPage;
+const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+const currentItems = filteredItem.slice(indexOfFirstItem, indexOfLastItem);
+const paginate = (pageNumber)=> setcurrentPage(pageNumber)
   
 
 
@@ -96,30 +111,36 @@ const handleSortChange = (option) =>{
       {/* {menu shop section} */}
       <div className='max-w-screen-2x1 container mx-auto xl:px-24 px-6 bg-gradient-to-r from-[#fafafa] from-0% to-[#fcfcfc] to-100%'>
         {/* {sorting and filtering} */}
-        <div>
+        <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
           {/* {all category buttons} */}
           <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
             <button onClick={showAll}
             className={selectedCategory === "all" ? "text-green text-decoration-line: underline" : ""}
             >All</button>
+
             <button onClick={()=>filteredItems("Recipe")}
             className={selectedCategory === "Recipe" ? "text-green text-decoration-line: underline" : ""}
             >Recipe</button>
-            <button onClick={()=> filteredItems("Main")}>Main</button>
-            <button onClick={()=>filteredItems("Popular")}>Popular</button>
+            <button onClick={()=> filteredItems("Main")}
+            className={selectedCategory === "Main" ? "text-green text-decoration-line: underline" : ""}
+            >Main</button>
+
+            <button onClick={()=>filteredItems("Popular")}
+            className={selectedCategory === "Popular" ? "text-green text-decoration-line: underline" : ""}
+            >Popular</button>
             {/* <button>Sald</button> */}
           </div>
 
           <div>
             {/* {sorting base filtering} */}
-            <div>
+            <div className='flex justify-end mb-4 rounded-sm'>
               <div className='bg-black p-2'>
                 <FaFilter className='h-4 w-4 text-white'/>
               </div>
 
               {/* {sorting options} */}
-              <select name="sort" id=""
-              onChange={()=> handleSortChange(e.target.value)}
+              <select name="sort" id="sort"
+              onChange={(e)=> handleSortChange(e.target.value)}
               value={sortOption}
               className='bg-black text-white px-2 py-1 rounded-sm'
               >
@@ -137,11 +158,25 @@ const handleSortChange = (option) =>{
         {/* {products card} */}
         <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
           {
-            filteredItem.map((item)=>(
+            currentItems.map((item)=>(
               <Cards key={item._id} item={item}/>
             ))
           }
         </div>
+      </div>
+
+      {/* {Pagination section} */}
+      <div className='flex justify-center my-8'>
+        {
+          Array.from({length: Math.ceil(filteredItem.length / itemsPerPage)}).map((_, index)=>(
+            <button key={index +1}
+            onClick={()=> paginate(index + 1)}
+            className={`mx-1 px-3 py-1 rounded-full ${currentPage === index +1 ? "bg-green text-white" : "bg-gray-200"}`}
+            >
+              {index +1}
+            </button>
+          ))
+        }
       </div>
     </div>
   )
