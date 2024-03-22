@@ -183,3 +183,6 @@ const paginate = (pageNumber)=> setcurrentPage(pageNumber)
 }
 
 export default Shop
+
+
+
