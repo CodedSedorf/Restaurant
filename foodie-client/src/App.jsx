@@ -1,28 +1,30 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Main from "./layout/Main";
 import Shop from "./pages/shop/Shop";
 import MyNavbar from "./components/MyNavbar";
 import Footerzz from "./components/Footerzz";
 import Signup from "./components/Signup";
+import AuthProvider from "./components/contexts/AuthProvider";
 
 function App() {
-  const location = useLocation();
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
+  );
+}
 
-  // Check if the current route is the sign-up page
-  const isSignUpPage = location.pathname === "/signup";
-
+function AppContent() {
   return (
     <>
-      {!isSignUpPage && <MyNavbar />}{" "}
-      {/* Display navbar if not on the sign-up page */}
+      <MyNavbar />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/menu" element={<Shop />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
-      {!isSignUpPage && <Footerzz />}{" "}
-      {/* Display footer if not on the sign-up page */}
+      <Footerzz />
     </>
   );
 }

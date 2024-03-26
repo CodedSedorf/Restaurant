@@ -16,9 +16,11 @@ const Signup = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    navigate("/signin")
+    navigate("/")
     // document.getElementById("my_modal_5").close();
   };
+
+  
   return (
     <div className="max-w-md bg-white shadow w-full mx-auto flex item-center justify-center my-14">
       <div className="modal-action flex flex-col justify-center">
@@ -86,14 +88,16 @@ const Signup = () => {
           </div>
           <p className="text-center my-2">
             Already have an account?
-            <button 
+            <Link to="/">
+              <button
                 className='btn flex item-center gap-2 rounded-full px-6 bg-green text-white' 
                 onClick={()=>document.getElementById('my_modal_5').showModal()}
                 >
 
                 Login
                 <Modal/>
-                </button>
+              </button>
+            </Link>
           </p>
         </form>
         <div className="text-center space-mx-3 mb-5">
