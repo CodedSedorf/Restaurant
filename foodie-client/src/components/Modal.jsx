@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -11,12 +11,23 @@ const Modal = () => {
     register,
     handleSubmit,
     // watch,
+    reset,
     formState: { errors },
   } = useForm();
 
 
-  //Implementing signinWithGoogle
-  const {signUpWithGmail, login} = useContext(AuthContext);
+  //Implementing signinWithGoogle & email&password
+  //Go to AuthProvider.jsx to copy the name in the curly braces
+  const {signUpWithGoogle, login} = useContext(AuthContext);
+  const [errorMessage, seterrorMessage] = useState("")
+
+  //
+  //redirecting to home page or specific page
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location.state?.pathname || "/"
+
+
 
 
 
@@ -27,12 +38,16 @@ const Modal = () => {
     const email = data.email;
     const password = data.password
     // console.log(email, password);
-    console.log(email, password).then((result)=>{
+    console.log(email, password)
+    login(email, password).then((result)=>{
       const user = result.user;
       alert("login successful")
+      document.getElementById("my_modal_5").close();
+      navigate(from, {replace: true})
+      reset();
     }).catch((error)=>{
       const errorMessage = error.message;
-      console.log(errorMessage);
+      seterrorMessage("Provide valid email and password")
     })
     // document.getElementById("my_modal_5").close();
   };
@@ -41,9 +56,11 @@ const Modal = () => {
   }
   //onClick of signinWithGoogle button function
   const handlelogin = ()=>{
-    signUpWithGmail().then((result)=>{
+    signUpWithGoogle()
+    .then((result)=>{
       const user = result.user;
-      alert("Login successful")
+      alert("Login successful");
+      document.getElementById("my_modal_5").close();
     }).catch((error)=>{
       console.log(error);
     })
@@ -89,6 +106,9 @@ const Modal = () => {
             </div>
 
             {/* {error message} */}
+            {
+              errorMessage ? <p className="text-red text-xs italic">{errorMessage}</p> : ""
+            }
 
             {/* {login button} */}
             <div className="form-control mt-6">
