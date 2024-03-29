@@ -50,6 +50,7 @@ import MyNavbar from "./components/MyNavbar";
 import Footerzz from "./components/Footerzz";
 import Signup from "./components/Signup";
 import AuthProvider, { AuthContext } from "./components/contexts/AuthProvider";
+import UpdateProfile from "./components/Dashboard/UpdateProfile";
 
 function App() {
   const { loading } = useContext(AuthContext);
@@ -80,6 +81,7 @@ function AppContent() {
         <Route path="/" element={<Main />} />
         <Route path="/menu" element={<Shop />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/update-profile" element={<UpdateProfile/>} />
       </Routes>
       <Footerzz />
     </>
