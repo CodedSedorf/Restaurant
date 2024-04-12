@@ -17,14 +17,6 @@
     },
     {
         "id": "3",
-        "name": "Amala and Abula",
-        "image": "/MenuImage/amala-dudu.png",
-        "category": "Popular",
-        "Price": "10.00"
-
-    },
-    {
-        "id": "4",
         "name": "Boli and Stew",
         "image": "/MenuImage/Boli-stew.jpeg",
         "category": "Popular",
@@ -32,7 +24,7 @@
 
     },
     {
-        "id": "5",
+        "id": "4",
         "name": "Abacha",
         "image": "/MenuImage/Abacha.png",
         "category": "Main",
@@ -40,7 +32,7 @@
 
     },
     {
-        "id": "6",
+        "id": "5",
         "name": "Yam",
         "image": "/MenuImage/yam.jpg",
         "category": "Main",
@@ -48,7 +40,7 @@
 
     },
     {
-        "id": "7",
+        "id": "6",
         "name": "Asorted",
         "image": "/MenuImage/asorted.jpg",
         "category": "Main",
@@ -56,7 +48,7 @@
 
     },
     {
-        "id": "8",
+        "id": "7",
         "name": "Poutine",
         "image": "/MenuImage/autumn-vegetable-poutine.jpg",
         "category": "Recipe",
@@ -64,7 +56,7 @@
 
     },
     {
-        "id": "9",
+        "id": "8",
         "name": "Baked Salmon",
         "image": "/MenuImage/baked-salmon.jpeg",
         "category": "Recipe",
@@ -72,9 +64,17 @@
 
     },
     {
+        "id": "9",
+        "name": "Turkey",
+        "image": "/MenuImage/turkey.png",
+        "category": "Recipe",
+        "Price": "12.00"
+
+    },
+    {
         "id": "10",
-        "name": "Mash",
-        "image": "/MenuImage/Banger-and-mash.jpg",
+        "name": "Z Yam",
+        "image": "/MenuImage/yam.jpg",
         "category": "Popular",
         "Price": "8.00"
 
@@ -145,17 +145,17 @@
     },
     {
         "id": "19",
-        "name": "Burger",
-        "image": "/MenuImage/Burger.png",
+        "name": "Tom Kha Gai",
+        "image": "/MenuImage/Tom-Kha-Gai.jpg",
         "category": "Popular",
-        "Price": "2.00"
+        "Price": "8.00"
 
     },
     {
         "id": "20",
         "name": "Calgary Ginger Beef",
         "image": "/MenuImage/Calgary-Ginger-Beef.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "5.00"
 
     },
@@ -177,10 +177,10 @@
     },
     {
         "id": "23",
-        "name": "Cheese Burger",
-        "image": "/MenuImage/Cheesebuger.jpg",
+        "name": "Spiced Salmon",
+        "image": "/MenuImage/spiced-salmon.jpeg",
         "category": "Popular",
-        "Price": "3.00"
+        "Price": "4.00"
 
     },
     {
@@ -281,10 +281,10 @@
     },
     {
         "id": "36",
-        "name": "Food",
-        "image": "/MenuImage/food.jpg",
-        "category": "Popular",
-        "Price": "8.00"
+        "name": "Southafrican Bunny Chow",
+        "image": "/MenuImage/southafrican-bunny-chow.jpg",
+        "category": "Recipe",
+        "Price": "5.50"
 
     },
     {
@@ -377,17 +377,17 @@
     },
     {
         "id": "48",
-        "name": "Mashed Potatoes",
-        "image": "/MenuImage/Mashed-otatoes.jpg",
-        "category": "Popular",
-        "Price": "6.00"
+       "name": "Semo and Egusi",
+       "image": "/MenuImage/semo.jpg",
+       "category": "Main",
+       "Price": "8.00"
 
-    },
+   },
     {
         "id": "49",
         "name": "Mexican Corn Salad",
         "image": "/MenuImage/mexican-corn-salad.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "4.00"
 
     },
@@ -395,7 +395,7 @@
         "id": "50",
         "name": "Moussaka",
         "image": "/MenuImage/Moussaka.jpg",
-        "category": "Popular",
+        "category": "Recipe",
         "Price": "8.00"
 
     },
@@ -433,18 +433,18 @@
     },
     {
         "id": "55",
-        "name": "Pan Fried",
-        "image": "/MenuImage/pan-fried.jpg",
-        "category": "Popular",
+        "name": "Salmon Cake",
+        "image": "/MenuImage/salmon-cake.jpeg",
+        "category": "Recipe",
         "Price": "2.00"
 
     },
     {
-        "id": "56",
-        "name": "Peameal Beacon",
-        "image": "/MenuImage/Peameal-beacon.jpg",
-        "category": "Popular",
-        "Price": "3.00"
+       "id": "56",
+        "name": "Sea Food",
+        "image": "/MenuImage/sea-food.jpg",
+        "category": "Recipe",
+        "Price": "7.00"
 
     },
     {
@@ -501,86 +501,6 @@
         "image": "/MenuImage/roasted-broccoli.jpg",
         "category": "Popular",
         "Price": "5.00"
-
-    },
-    {
-        "id": "64",
-        "name": "Salmon Cake",
-        "image": "/MenuImage/salmon-cake.jpeg",
-        "category": "Popular",
-        "Price": "2.00"
-
-    },
-    {
-       "id": "65",
-        "name": "Sea Food",
-        "image": "/MenuImage/sea-food.jpg",
-        "category": "Popular",
-        "Price": "7.00"
-
-    },
-    {
-         "id": "66",
-        "name": "Semo and Egusi",
-        "image": "/MenuImage/semo.jpg",
-        "category": "Popular",
-        "Price": "8.00"
-
-    },
-    {
-        "id": "67",
-        "name": "Southafrican Bunny Chow",
-        "image": "/MenuImage/southafrican-bunny-chow.jpg",
-        "category": "Popular",
-        "Price": "5.50"
-
-    },
-    {
-        "id": "68",
-        "name": "Spiced Salmon",
-        "image": "/MenuImage/spiced-salmon.jpeg",
-        "category": "Popular",
-        "Price": "4.00"
-
-    },
-    {
-        "id": "69",
-        "name": "Steak and Beaked Potato",
-        "image": "/MenuImage/Steakandbaked-potato.jpg",
-        "category": "Popular",
-        "Price": "4.00"
-
-    },
-    {
-        "id": "70",
-        "name": "Tom Kha Gai",
-        "image": "/MenuImage/Tom-Kha-Gai.jpg",
-        "category": "Popular",
-        "Price": "8.00"
-
-    },
-    {
-        "id": "71",
-        "name": "Tourtiere",
-        "image": "/MenuImage/Tourtiere.jpeg",
-        "category": "Popular",
-        "Price": "7.00"
-
-    },
-    {
-        "id": "72",
-        "name": "Turkey",
-        "image": "/MenuImage/turkey.png",
-        "category": "Popular",
-        "Price": "12.00"
-
-    },
-    {
-        "id": "73",
-        "name": "Z Yam",
-        "image": "/MenuImage/yam.jpg",
-        "category": "Popular",
-        "Price": "8.00"
 
     }
 ]
